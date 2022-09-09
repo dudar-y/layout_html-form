@@ -125,7 +125,6 @@
             type="color"
             class="field"
             name="color"
-            value="#e11465"
           >
         </label>
         <label class="form__field">
@@ -138,24 +137,15 @@
           >
         </label>
         <label class="form__field">
-          What music do you like?
+          What are your favorite brand of cars?
           <select
             class="form__select"
-            name="music"
+            name="cars"
             multiple
           >
-            <option value="pop">Pop</option>
-            <option value="hiphop">Hip-hop</option>
-            <option value="rock">Rock</option>
-            <option value="blues">Blues</option>
-            <option value="soul">Soul</option>
-            <option value="funk">Funk</option>
-            <option value="folk">Folk</option>
-            <option value="juzz">Juzz</option>
-            <option value="disco">Disco</option>
-            <option value="classical">Classical</option>
-            <option value="randb">R&B</option>
-            <option value="electronic">Electronic</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="waste">Lada</option>
           </select>
         </label>
         <label class="form__field">
@@ -167,21 +157,22 @@
             name="ourwork"
             min="1"
             max="10"
-            value="8"
+            value="1"
             step="1"
           >
         </label>
       </fieldset>
       <fieldset class="fieldset">
-        <legend>Additional info</legend>
+        <legend>Additional info:</legend>
         <label class="form__field">
           Comments:
           <textarea
             id="comment"
             name="comment"
-            rows="5"
-            cols="30"
-            >Leave your comment here...
+            rows="0"
+            cols="20"
+            autocomplete="off"
+          >
           </textarea>
         </label>
         <label class="form__field">
@@ -191,8 +182,8 @@
             name="recommend"
             id="recommend"
           >
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
+            <option value="Yes">yes</option>
+            <option value="No">no</option>
           </select>
         </label>
       </fieldset>
